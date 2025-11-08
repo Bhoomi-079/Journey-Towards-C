@@ -10,4 +10,5 @@ printf("It is an Equilateral triangle.\n"); } else if (side1 == side2 || side1 =
 { printf("It is an Isosceles triangle.\n"); } else if
  { printf("It is a Scalene triangle.\n"); } } else {
 printf("The given sides do not form a valid triangle.\n"); }
- return 0; }
+ return 0;
+ }
