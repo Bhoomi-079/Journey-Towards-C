@@ -8,12 +8,13 @@ int main() {
     printf("Before swap: box1 = %d, box2= %d\n", box1, box2);
 
     
-    temp = box1;   // Store the value of 'a' in 'temp'
-    box1=box2;      // Put the value of 'b' into 'a'
-    box2= temp;   // Put the stored original value of 'a' into 'b'
+    temp = box1;   
+    box1=box2;      
+    box2= temp;   
 
     printf("After swap: box1 = %d, box2 = %d\n", box1, box2);
 
     return 0;
 
 }
+
