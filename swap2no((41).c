@@ -11,7 +11,7 @@ int main() {
     printf("Before swapping: a = %d, b = %d\n", a, b);
 
     
-    a = a + b; // If a=1, b=2, then a becomes 3
+    a = a + b; 
 
     // a ka naya value aa gaya ok? 
     b = a - b; // b becomes 3- 2= 1(the original 'a')
@@ -22,4 +22,5 @@ int main() {
     printf("After swapping:  a = %d, b = %d\n", a, b);
 
     return 0;
+
 }
